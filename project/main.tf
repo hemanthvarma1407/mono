@@ -10,5 +10,6 @@ key_name = "last-keypair"
 vpc_security_group_ids = [aws_security_group.security-sg.id]
 tags = {
 Name = "my-instance"
+Enovirement = "dev"
 }
 }
