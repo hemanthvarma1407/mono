@@ -9,7 +9,7 @@ instance_type = "t2.micro"
 key_name = "last-keypair"
 vpc_security_group_ids = [aws_security_group.security-sg.id]
 tags = {
-Name = "my-instance"
+Name = "my-new"
 Enovirement = "dev"
 }
 }
